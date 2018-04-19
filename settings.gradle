@@ -1,0 +1,4 @@
+rootProject.name = 'vocabulary'
+include 'iiif.vocabulary'
+
+project(':iiif.vocabulary').projectDir = "$rootDir/iiif.vocabulary" as File

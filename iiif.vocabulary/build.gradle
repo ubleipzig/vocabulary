@@ -1,0 +1,34 @@
+apply plugin: 'osgi'
+
+dependencies {
+    api("org.apache.commons:commons-rdf-api:$commonsRdfVersion")
+    implementation("com.fasterxml.jackson.core:jackson-core:$jacksonVersion")
+    implementation("com.fasterxml.jackson.core:jackson-databind:$jacksonVersion")
+    testImplementation("org.apache.commons:commons-rdf-jena:$commonsRdfVersion")
+    testImplementation("org.apache.jena:jena-osgi:$jenaVersion")
+    testImplementation("org.apache.httpcomponents:httpclient:$httpClientOsgiVersion")
+    testImplementation("org.apache.httpcomponents:httpclient-cache:$httpClientOsgiVersion")
+    testImplementation("org.mockito:mockito-core:$mockitoVersion")
+    testImplementation("org.slf4j:slf4j-api:$slf4jVersion")
+    testImplementation("org.apache.servicemix.bundles:org.apache.servicemix.bundles.xerces:$servicemixXercesVersion")
+
+    testRuntimeClasspath("ch.qos.logback:logback-classic:$logbackVersion")
+}
+
+ext {
+    moduleName = "de.ubleipzig.iiiif.vocabulary"
+}
+
+
+jar {
+    manifest {
+        description project.description
+        docURL project.docURL
+        vendor project.vendor
+        license project.license
+
+        instruction 'Automatic-Module-Name', moduleName
+        instruction 'Import-Package', '*'
+        instruction 'Export-Package', "$moduleName;version=$projectOsgiVersion"
+    }
+}
