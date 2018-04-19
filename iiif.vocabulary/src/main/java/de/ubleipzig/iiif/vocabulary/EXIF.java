@@ -199,6 +199,5 @@ public final class EXIF {
 
 
     private EXIF() {
-
     }
 }

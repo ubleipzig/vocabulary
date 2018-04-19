@@ -44,6 +44,7 @@ public final class ANNO {
     private static final String RDF = "RDF";
     private static final String RDFS = "RDFS";
     private static final String SCHEMA = "SCHEMA";
+
     /* Classes */
     public static final IRI AnnotationPage = createIRI(namespaces().get(AS) + "OrderedCollectionPage");
     public static final IRI Software = createIRI(namespaces().get(AS) + "Application");
