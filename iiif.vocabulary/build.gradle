@@ -16,7 +16,7 @@ dependencies {
 }
 
 ext {
-    moduleName = "de.ubleipzig.iiiif.vocabulary"
+    moduleName = "de.ubleipzig.iiif.vocabulary"
 }
 
 
