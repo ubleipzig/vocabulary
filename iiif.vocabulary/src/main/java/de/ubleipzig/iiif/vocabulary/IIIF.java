@@ -18,6 +18,8 @@
 
 package de.ubleipzig.iiif.vocabulary;
 
+import static de.ubleipzig.iiif.vocabulary.VocabUtils.createIRI;
+
 import org.apache.commons.rdf.api.IRI;
 
 /**
@@ -31,41 +33,41 @@ public final class IIIF {
     public static final String URI = "http://iiif.io/api/image/2#";
 
     /* Classes */
-    public static final IRI Feature = VocabUtils.createIRI(URI + "Feature");
-    public static final IRI Image = VocabUtils.createIRI(URI + "Image");
-    public static final IRI ImageProfile = VocabUtils.createIRI(URI + "ImageProfile");
-    public static final IRI Size = VocabUtils.createIRI(URI + "Size");
-    public static final IRI Tile = VocabUtils.createIRI(URI + "Tile");
+    public static final IRI Feature = createIRI(URI + "Feature");
+    public static final IRI Image = createIRI(URI + "Image");
+    public static final IRI ImageProfile = createIRI(URI + "ImageProfile");
+    public static final IRI Size = createIRI(URI + "Size");
+    public static final IRI Tile = createIRI(URI + "Tile");
 
     /* Object Properties */
-    public static final IRI size = VocabUtils.createIRI(URI + "hasSize");
-    public static final IRI tile = VocabUtils.createIRI(URI + "hasTiles");
-    public static final IRI supports = VocabUtils.createIRI(URI + "supports");
+    public static final IRI size = createIRI(URI + "hasSize");
+    public static final IRI tile = createIRI(URI + "hasTiles");
+    public static final IRI supports = createIRI(URI + "supports");
 
     /* Datatype Properties */
-    public static final IRI format = VocabUtils.createIRI(URI + "format");
-    public static final IRI quality = VocabUtils.createIRI(URI + "quality");
-    public static final IRI scaleFactor = VocabUtils.createIRI(URI + "scaleFactor");
+    public static final IRI format = createIRI(URI + "format");
+    public static final IRI quality = createIRI(URI + "quality");
+    public static final IRI scaleFactor = createIRI(URI + "scaleFactor");
 
     /* Named Individuals */
-    public static final IRI arbitraryRotationFeature = VocabUtils.createIRI(URI + "arbitraryRotationFeature");
-    public static final IRI baseUriRedirectFeature = VocabUtils.createIRI(URI + "baseUriRedirectFeature");
-    public static final IRI canonicalLinkHeaderFeature = VocabUtils.createIRI(URI + "canonicalLinkHeaderFeature");
-    public static final IRI corsFeature = VocabUtils.createIRI(URI + "corsFeature");
-    public static final IRI jsonLdMediaTypeFeature = VocabUtils.createIRI(URI + "jsonLdMediaTypeFeature");
-    public static final IRI mirroringFeature = VocabUtils.createIRI(URI + "mirroringFeature");
-    public static final IRI profileLinkHeaderFeature = VocabUtils.createIRI(URI + "profileLinkHeaderFeature");
-    public static final IRI regionByPctFeature = VocabUtils.createIRI(URI + "regionByPctFeature");
-    public static final IRI regionByPxFeature = VocabUtils.createIRI(URI + "regionByPxFeature");
-    public static final IRI regionSquareFeature = VocabUtils.createIRI(URI + "regionSquareFeature");
-    public static final IRI rotationBy90sFeature = VocabUtils.createIRI(URI + "rotationBy90sFeature");
-    public static final IRI sizeAboveFullFeature = VocabUtils.createIRI(URI + "sizeAboveFullFeature");
-    public static final IRI sizeByHFeature = VocabUtils.createIRI(URI + "sizeByHFeature");
-    public static final IRI sizeByPctFeature = VocabUtils.createIRI(URI + "sizeByPctFeature");
-    public static final IRI sizeByWFeature = VocabUtils.createIRI(URI + "sizeByWFeature");
-    public static final IRI sizeByWHFeature = VocabUtils.createIRI(URI + "sizeByWHFeature");
-    public static final IRI sizeByWHListedFeature = VocabUtils.createIRI(URI + "sizeByWHListedFeature");
-    public static final IRI sizeByForcedWHFeature = VocabUtils.createIRI(URI + "sizeByForcedWHFeature");
+    public static final IRI arbitraryRotationFeature = createIRI(URI + "arbitraryRotationFeature");
+    public static final IRI baseUriRedirectFeature = createIRI(URI + "baseUriRedirectFeature");
+    public static final IRI canonicalLinkHeaderFeature = createIRI(URI + "canonicalLinkHeaderFeature");
+    public static final IRI corsFeature = createIRI(URI + "corsFeature");
+    public static final IRI jsonLdMediaTypeFeature = createIRI(URI + "jsonLdMediaTypeFeature");
+    public static final IRI mirroringFeature = createIRI(URI + "mirroringFeature");
+    public static final IRI profileLinkHeaderFeature = createIRI(URI + "profileLinkHeaderFeature");
+    public static final IRI regionByPctFeature = createIRI(URI + "regionByPctFeature");
+    public static final IRI regionByPxFeature = createIRI(URI + "regionByPxFeature");
+    public static final IRI regionSquareFeature = createIRI(URI + "regionSquareFeature");
+    public static final IRI rotationBy90sFeature = createIRI(URI + "rotationBy90sFeature");
+    public static final IRI sizeAboveFullFeature = createIRI(URI + "sizeAboveFullFeature");
+    public static final IRI sizeByHFeature = createIRI(URI + "sizeByHFeature");
+    public static final IRI sizeByPctFeature = createIRI(URI + "sizeByPctFeature");
+    public static final IRI sizeByWFeature = createIRI(URI + "sizeByWFeature");
+    public static final IRI sizeByWHFeature = createIRI(URI + "sizeByWHFeature");
+    public static final IRI sizeByWHListedFeature = createIRI(URI + "sizeByWHListedFeature");
+    public static final IRI sizeByForcedWHFeature = createIRI(URI + "sizeByForcedWHFeature");
 
     private IIIF() {
     }

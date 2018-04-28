@@ -18,6 +18,8 @@
 
 package de.ubleipzig.iiif.vocabulary;
 
+import static de.ubleipzig.iiif.vocabulary.VocabUtils.createIRI;
+
 import org.apache.commons.rdf.api.IRI;
 
 /**
@@ -32,21 +34,21 @@ public final class DCElements {
     public static final String URI = "http://purl.org/dc/elements/1.1/";
 
     /* Properties */
-    public static final IRI contributor = VocabUtils.createIRI(URI + "contributor");
-    public static final IRI coverage = VocabUtils.createIRI(URI + "coverage");
-    public static final IRI creator = VocabUtils.createIRI(URI + "creator");
-    public static final IRI date = VocabUtils.createIRI(URI + "date");
-    public static final IRI description = VocabUtils.createIRI(URI + "description");
-    public static final IRI format = VocabUtils.createIRI(URI + "format");
-    public static final IRI identifier = VocabUtils.createIRI(URI + "identifier");
-    public static final IRI language = VocabUtils.createIRI(URI + "language");
-    public static final IRI publisher = VocabUtils.createIRI(URI + "publisher");
-    public static final IRI relation = VocabUtils.createIRI(URI + "relation");
-    public static final IRI rights = VocabUtils.createIRI(URI + "rights");
-    public static final IRI source = VocabUtils.createIRI(URI + "source");
-    public static final IRI subject = VocabUtils.createIRI(URI + "subject");
-    public static final IRI title = VocabUtils.createIRI(URI + "title");
-    public static final IRI type = VocabUtils.createIRI(URI + "type");
+    public static final IRI contributor = createIRI(URI + "contributor");
+    public static final IRI coverage = createIRI(URI + "coverage");
+    public static final IRI creator = createIRI(URI + "creator");
+    public static final IRI date = createIRI(URI + "date");
+    public static final IRI description = createIRI(URI + "description");
+    public static final IRI format = createIRI(URI + "format");
+    public static final IRI identifier = createIRI(URI + "identifier");
+    public static final IRI language = createIRI(URI + "language");
+    public static final IRI publisher = createIRI(URI + "publisher");
+    public static final IRI relation = createIRI(URI + "relation");
+    public static final IRI rights = createIRI(URI + "rights");
+    public static final IRI source = createIRI(URI + "source");
+    public static final IRI subject = createIRI(URI + "subject");
+    public static final IRI title = createIRI(URI + "title");
+    public static final IRI type = createIRI(URI + "type");
 
 
     private DCElements() {

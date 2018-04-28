@@ -32,7 +32,7 @@ public final class SC {
     /* Namespace */
     public static final String URI = "http://iiif.io/api/presentation/2#";
 
-    /* Context */
+    /* Contexts */
     public static final String CONTEXT = "http://iiif.io/api/presentation/2/context.json";
 
     /* Classes */
