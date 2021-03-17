@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 
 package de.ubleipzig.iiif.vocabulary;
@@ -26,12 +26,12 @@ import org.apache.commons.rdf.api.IRI;
  * RDF Terms from the Dublin Core Vocabulary.
  *
  * @author acoburn
- * @see <a href="http://dublincore.org/documents/dcmi-terms/">DCMI Metadata Terms</a>
+ * @see <a href="https://dublincore.org/documents/dcmi-terms/">DCMI Metadata Terms</a>
  */
 public final class DCTypes {
 
     /* Namespace */
-    public static final String URI = "http://purl.org/dc/dcmitype/";
+    public static final String URI = "https://purl.org/dc/dcmitype/";
 
     /* Classes */
     public static final IRI Collection = createIRI(URI + "Collection");

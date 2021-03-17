@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 
 package de.ubleipzig.iiif.vocabulary;
@@ -32,7 +32,7 @@ public class SCContextTest extends PresentationApiContextTest {
 
     @Override
     public String context() {
-        return "http://iiif.io/api/presentation/2/context.json";
+        return "https://iiif.io/api/presentation/2/context.json";
     }
 
     @Override

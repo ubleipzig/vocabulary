@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 package de.ubleipzig.iiif.vocabulary;
 
@@ -26,7 +26,7 @@ public class IIIFEnumTest {
     @Test
     void testIIIFEnum() {
         for (IIIFEnum e : IIIFEnum.values()) {
-            assertTrue(e.IRIString().contains("http://iiif.io/api/image/"));
+            assertTrue(e.IRIString().contains("https://iiif.io/api/image/"));
         }
     }
 }

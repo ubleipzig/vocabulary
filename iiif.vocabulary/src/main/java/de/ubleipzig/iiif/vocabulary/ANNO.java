@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 
 package de.ubleipzig.iiif.vocabulary;
@@ -33,7 +33,7 @@ import org.apache.commons.rdf.api.IRI;
 public final class ANNO {
 
     /* CONTEXT */
-    public static final String CONTEXT = "http://www.w3.org/ns/anno.jsonld";
+    public static final String CONTEXT = "https://www.w3.org/ns/anno.jsonld";
 
     private static final String AS = "AS";
     private static final String DC = "DC";
@@ -154,15 +154,15 @@ public final class ANNO {
      */
     public static Map<String, String> namespaces() {
         final Map<String, String> namespaces = new HashMap<>();
-        namespaces.put(AS, "http://www.w3.org/ns/activitystreams#");
-        namespaces.put(DC, "http://purl.org/dc/elements/1.1/");
-        namespaces.put(DCTERMS, "http://purl.org/dc/terms/");
-        namespaces.put(DCTYPES, "http://purl.org/dc/dcmitype/");
-        namespaces.put(FOAF, "http://xmlns.com/foaf/0.1/");
-        namespaces.put(OA, "http://www.w3.org/ns/oa#");
-        namespaces.put(RDF, "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
-        namespaces.put(RDFS, "http://www.w3.org/2000/01/rdf-schema#");
-        namespaces.put(SCHEMA, "http://schema.org/");
+        namespaces.put(AS, "https://www.w3.org/ns/activitystreams#");
+        namespaces.put(DC, "https://purl.org/dc/elements/1.1/");
+        namespaces.put(DCTERMS, "https://purl.org/dc/terms/");
+        namespaces.put(DCTYPES, "https://purl.org/dc/dcmitype/");
+        namespaces.put(FOAF, "https://xmlns.com/foaf/0.1/");
+        namespaces.put(OA, "https://www.w3.org/ns/oa#");
+        namespaces.put(RDF, "https://www.w3.org/1999/02/22-rdf-syntax-ns#");
+        namespaces.put(RDFS, "https://www.w3.org/2000/01/rdf-schema#");
+        namespaces.put(SCHEMA, "https://schema.org/");
         return namespaces;
     }
 }

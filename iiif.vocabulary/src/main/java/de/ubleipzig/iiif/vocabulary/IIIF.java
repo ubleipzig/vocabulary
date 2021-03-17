@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 
 package de.ubleipzig.iiif.vocabulary;
@@ -30,7 +30,7 @@ import org.apache.commons.rdf.api.IRI;
 public final class IIIF {
 
     /* Namespace */
-    public static final String URI = "http://iiif.io/api/image/2#";
+    public static final String URI = "https://iiif.io/api/image/2#";
 
     /* Classes */
     public static final IRI Feature = createIRI(URI + "Feature");

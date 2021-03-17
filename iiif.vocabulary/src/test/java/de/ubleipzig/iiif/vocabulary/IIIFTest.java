@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 
 package de.ubleipzig.iiif.vocabulary;
@@ -27,12 +27,12 @@ public class IIIFTest extends AbstractVocabularyTest {
 
     @Override
     public String namespace() {
-        return "http://iiif.io/api/image/2#";
+        return "https://iiif.io/api/image/2#";
     }
 
     @Override
     public String url() {
-        return "http://iiif.io/api/image/2/ontology.xml";
+        return "https://iiif.io/api/image/2/ontology.xml";
     }
 
     @Override

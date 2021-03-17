@@ -153,7 +153,7 @@ subprojects { subproj ->
                     name 'Christopher Johnson'
                     email 'chjohnson @ (domain of organization url)'
                     organization = 'UB Leipzig'
-                    organizationUrl 'http://www.ub.uni-leipzig.de/'
+                    organizationUrl 'https://www.ub.uni-leipzig.de/'
                     roles {
                         role 'developer'
                     }
@@ -171,7 +171,7 @@ subprojects { subproj ->
             licenses {
                 license {
                     name 'GPL v3'
-                    url 'http://www.apache.org/licenses/LICENSE-2.0'
+                    url 'https://www.apache.org/licenses/LICENSE-2.0'
                 }
             }
         }

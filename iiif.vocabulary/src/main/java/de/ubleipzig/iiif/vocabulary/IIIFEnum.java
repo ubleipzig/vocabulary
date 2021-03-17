@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>
  */
 
 package de.ubleipzig.iiif.vocabulary;
@@ -23,7 +23,7 @@ package de.ubleipzig.iiif.vocabulary;
  */
 public enum IIIFEnum {
 
-    IMAGE_CONTEXT("http://iiif.io/api/image/2/context.json"), SERVICE_PROFILE("http://iiif.io/api/image/2/level1.json");
+  IMAGE_CONTEXT("https://iiif.io/api/image/2/context.json"), SERVICE_PROFILE("https://iiif.io/api/image/2/level1.json");
 
     private String IRIString;
 
